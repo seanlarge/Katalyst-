@@ -25,7 +25,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-
+ # use devise for auth
+ gem 'devise', '~> 3.4.1'
+ # omniauth for logging in through linkedin/github
+ gem 'omniauth', '~> 1.2.2'
+ gem 'omniauth-linkedin'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
